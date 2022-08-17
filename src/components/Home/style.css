@@ -1,9 +1,12 @@
-.container{
+.Home{
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content{
-    width: 50vw;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +20,7 @@
     color: #234899;
 }
 .image{
-    width: 50vw;
+    width: 50%;
 }
 .image img{
     width: 40vw;

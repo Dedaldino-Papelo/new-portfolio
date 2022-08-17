@@ -1,4 +1,5 @@
 .project{
+    width: 100%;
     margin: 100px 0 0 0;
     padding: 100px;
     background: #1c1c20;
@@ -8,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
-    width: 960px;
+    width: 85%;
     margin: 0 auto;
 }
 

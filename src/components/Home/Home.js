@@ -4,7 +4,7 @@ import Logo from '../../assets/img/Code typing-bro.png'
 
 const Home = () => {
   return (
-    <section className="container">
+    <section className="Home">
       <div className="content">
         <h1>
             Hi, My name is <br /> <span> Dedaldino Papelo </span><br/>

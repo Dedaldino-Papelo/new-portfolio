@@ -11,7 +11,7 @@ import PostqreSql from '../../assets/icons8-postgreesql.svg'
 
 const Skill = () => {
     return (
-        <section className='skills'>
+        <section className='Skills'>
             <div className='stack'>
                 <div className='wrapper'>
                 <div className='stack-icon'>
@@ -26,17 +26,7 @@ const Skill = () => {
 
                 <div className='stack-icon'>
                     <img src={Javascript} alt='' />
-                    <strong>Js</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={Css} alt='' />
-                    <strong>CSS</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={Javascript} alt='' />
-                    <strong>Js</strong>
+                    <strong>Javascript</strong>
                 </div>
 
                 <div className='stack-icon'>
