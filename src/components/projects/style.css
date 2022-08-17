@@ -1,0 +1,58 @@
+.project{
+    margin: 100px 0 0 0;
+    padding: 100px;
+    background: #1c1c20;
+    color: #8f8f8f ;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.projects h5{
+    font-weight: bold;
+    color: #ecdfdf;
+}
+
+.projects .grid{
+    /*Default color #234899*/
+    padding: 20px;
+    background: rgb(16, 16, 20);
+}
+
+.projects .grid span{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.projects .grid span{
+   font-weight: bold;
+}
+
+.projects .grid-body{
+    margin: 15px 0;
+}
+
+.projects .grid img{
+    width: 100%;
+}
+
+.project .grid .url{
+    margin: 30px 0;
+}
+
+.project .grid .Btn{
+   background-color: #234899;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+.project .grid .Btn:hover{
+   background-color: #113ea0;
+}

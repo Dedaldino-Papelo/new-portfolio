@@ -2,12 +2,6 @@
     margin: 100px 0;
     display: flex;
 }
-.about h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 3em;
-}
 
 .description{
     width: 50vw;
@@ -29,6 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.subtitle h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
 }
 
 /* .description{
