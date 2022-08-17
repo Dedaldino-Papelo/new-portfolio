@@ -1,0 +1,53 @@
+.about{
+    margin: 100px 0;
+    display: flex;
+}
+.about h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.description{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info{
+    width: 520px;
+}
+.info p{
+    font-size: 1.125em;
+    line-height: 1.6875em ;
+}
+
+.subtitle{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .description{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.stacks{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+} */
+/* .stack-icon{
+    display: flex;
+    flex-direction: column;
+} */
