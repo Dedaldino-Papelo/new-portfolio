@@ -1,16 +1,47 @@
-import React from 'react'
+import React, { useRef} from 'react'
+import emailjs from '@emailjs/browser';
 import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
+  const form = useRef()
+
+  const submitHandler = (e) => {
+    e.preventDefault()
+    emailjs.sendForm(
+      process.env.REACT_APP_SERVICE_ID, 
+      process.env.REACT_APP_TEMPLATE_ID, form.current, 
+      process.env.REACT_APP_API_KEY)
+    .then((result) => {
+        alert("Message Enviada com sucesso")
+    }, (error) => {
+        console.log(error.text);
+    });
+
+  }
+
   return (
     <section id="contact" className='contact'>
     <div className='form'>
-        <form>
-            <input type='text' placeholder="Name" />
-            <input type='text' placeholder="Surname" />
-            <textarea placeholder='Message'></textarea>
+        <form ref={form} onSubmit={submitHandler}>
+            <input type='text' 
+              placeholder="Name" 
+              name='Nome'
+              required
+              />
+            <input type='text' 
+              placeholder="Email"                
+             name='Email'
+             required
+             />
+
+            <textarea   
+            placeholder='Message'
+            name='Message' 
+            required
+            />
+
             <button>Enviar</button>
         </form>
         <div className='social-links'>
