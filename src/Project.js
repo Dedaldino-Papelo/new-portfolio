@@ -33,7 +33,7 @@ const Projects = [
         image: `${portfolio}`,
         stacks: "Reactjs, CSS, Emailjs",
         url: {
-            github: "https://github.com/Dedaldino-Papelo/ignite-lab-event-platform",
+            github: "https://github.com/Dedaldino-Papelo/new-portfolio",
             live: "https://ignite-lab-event-platform-five-xi.vercel.app/"
         }
     }

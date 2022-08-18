@@ -1,12 +1,12 @@
-.contact{
+.contact {
     width: 100%;
     display: flex;
     background: rgb(32, 32, 36);
     padding: 70px;
-    color: #8f8f8f ;
+    color: #8f8f8f;
 }
 
-.form{
+.form {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -14,26 +14,29 @@
     align-items: center;
 }
 
-.contact .subtitle{
+.contact .subtitle {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact .subtitle h2{
+.contact .subtitle h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 3em;
 }
 
-.contact form{
+.contact form {
     display: flex;
     flex-direction: column;
     width: 420px;
 }
-.contact form input, textarea, button{
+
+.contact form input,
+textarea,
+button {
     margin-bottom: 0.625em;
     padding: 14px;
     background: #000;
@@ -44,7 +47,7 @@
 }
 
 
-.contact button{
+.contact button {
     background-color: #234899;
     font-weight: bold;
     font-size: 1.125em;
@@ -53,25 +56,61 @@
     transition: all 0.3s;
 }
 
-.contact button:hover{
+.contact button:hover {
     background-color: #113ea0;
 }
 
-.contact textarea{
-  resize: none;
+.contact textarea {
+    resize: none;
 }
 
-.contact .social-links{
+.contact .social-links {
     margin-top: 30px;
 }
 
-.contact .social-links .icon{
+.contact .social-links .icon {
     margin-left: 20px;
     font-size: 32px;
     color: #8f8f8f;
     transition: all 0.3s;
 }
-.contact .social-links .icon:hover{
+
+.contact .social-links .icon:hover {
     color: #e6d8d8;
 }
 
+/*Responsividade Smartphone*/
+@media only screen and (max-width: 767px) {
+    .contact {
+        flex-direction: column-reverse;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contact .subtitle {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+
+    .contact .subtitle h2 {
+        font-size: 1.456em;
+    }
+}
+
+/*Responsivo - Tablet*/
+
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+    .contact form {
+        width: 100%;
+    }
+    
+}

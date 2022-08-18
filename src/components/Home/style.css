@@ -1,27 +1,64 @@
-.Home{
+.Home {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content{
+.content {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.content h1{
+
+.content h1 {
     font-size: 3em;
     line-height: 70px;
     font-weight: bold;
 }
-.content h1 span{
+
+.content h1 span {
     color: #234899;
 }
-.image{
+
+.image {
     width: 50%;
 }
-.image img{
+
+.image img {
     width: 40vw;
+}
+
+
+/*Responsividade Smartphone*/
+@media only screen and (max-width: 767px) {
+    .Home {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content h1 {
+    font-size: 1.456em;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+}
+/*Responsivo - Tablet*/
+
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+    .content h1 {
+        font-size: 2em;
+        line-height: 1.40em;
+    }
 }

@@ -57,3 +57,12 @@
 .project .grid .Btn:hover{
    background-color: #113ea0;
 }
+@media only screen and (max-width: 767px) {
+    .project{
+        padding: 0;
+    }
+    .projects{
+        width: 85%;
+    }
+}
+

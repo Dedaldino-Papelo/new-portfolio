@@ -1,36 +1,81 @@
-.About{
+.About {
     width: 100%;
     margin: 30px 0;
     display: flex;
 }
 
-.description{
+.description {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.info{
+.info {
     width: 700px;
     margin-left: 160px;
 }
-.info p{
+
+.info p {
     font-size: 1.125em;
-    line-height: 1.6875em ;
+    line-height: 1.6875em;
 }
 
-.About .subtitle{
+.About .subtitle {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.About .subtitle h2{
+.About .subtitle h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 3em;
+}
 
+@media only screen and (max-width: 767px) {
+    .About {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .About .subtitle {
+        margin: 0;
+        width: 100%;
+    }
+
+    .info {
+        margin-left: 0;
+    }
+
+    .info p {
+        font-size: 16px;
+        line-height: 21px;
+        padding: 10px;
+    }
+
+    .About .subtitle h2 {
+        font-size: 1.456em;
+    }
+
+}
+
+/*Responsivo - Tablet*/
+
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+    .info {
+        margin-left: 0;
+    }
+    .info p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 40px;
+}
 }
