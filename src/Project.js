@@ -1,6 +1,7 @@
 import yelp from './assets/img/yelpcamp.png'
 import EventPlatform from './assets/img/EventPlatform.png'
 import portfolio from './assets/img/portfolio.png'
+import Bikecraft from './assets/img/Bikecraft.png'
 
 const Projects = [
     {
@@ -35,6 +36,17 @@ const Projects = [
         url: {
             github: "https://github.com/Dedaldino-Papelo/new-portfolio",
             live: "https://ignite-lab-event-platform-five-xi.vercel.app/"
+        }
+    },
+    {
+        id: "4",
+        name: "Bikecraft",
+        descrition: "Esta é uma simulação de um site de vendas de bicicletas personalizadas",
+        image: `${Bikecraft}`,
+        stacks: "HTML, CSS, JAVASCRIPT",
+        url: {
+            github: "https://github.com/Dedaldino-Papelo/bikecraft",
+            live: "https://stormy-gorge-20152.herokuapp.com/"
         }
     }
 
