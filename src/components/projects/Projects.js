@@ -5,7 +5,7 @@ import Card from './Card'
 
 const Projects = () => {
     return (
-        <section className='project'>
+        <section id="projects" className='project'>
             <div className='projects'>
                 {projects.map(project => (
                     <Card key={project.id} project={project} />

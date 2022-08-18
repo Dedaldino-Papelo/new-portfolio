@@ -5,7 +5,7 @@ import { faFacebook, faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-
 
 const Contact = () => {
   return (
-    <section className='contact'>
+    <section id="contact" className='contact'>
     <div className='form'>
         <form>
             <input type='text' placeholder="Name" />
