@@ -7,18 +7,19 @@ const Home = () => {
   return (
     <section id="home" className="Home">
       <div className="content">
+        <h1>
         <Typewriter
-
           onInit={(typewriter) => {
-
             typewriter
-              .typeString("<h1>Hi, My name is <br /> <span> Dedaldino Papelo </span><br />Computer Engineer</h1>")
+              .typeString("Hi, My name is <br /> <span style='color:#234899;'> Dedaldino Papelo </span> <br />Computer Engineer")
+              .typeString("")
               .pauseFor(1000)
               .deleteChars(17)
-              .typeString("<h1> Web Developer</h1>")
+              .typeString("Web Developer")
               .start();
           }}
         />
+        </h1>
       </div>
 
       <div className='image'>

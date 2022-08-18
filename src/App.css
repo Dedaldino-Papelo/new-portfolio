@@ -1,1 +1,19 @@
 
+.btn-download{
+    background-color: #234899;
+    font-weight: bold;
+     text-decoration: none;
+     padding: 10px 30px;
+     border-radius: 5px;
+     color: #fff;
+     transition: all 0.3s;
+     text-align: center;
+ }
+
+ .btn-download:hover{
+    color: #fff;
+    background-color: #062464;
+ }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff
+}

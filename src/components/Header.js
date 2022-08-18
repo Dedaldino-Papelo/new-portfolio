@@ -11,7 +11,6 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
 
-
             <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={100}>
               <Nav.Link>About</Nav.Link>
             </Link>
@@ -27,7 +26,11 @@ const Header = () => {
             <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={100}>
               <Nav.Link>Contact</Nav.Link>
             </Link>
-
+          </Nav>
+          <Nav className='ms-auto'>
+            <Nav.Link className='btn-download' target='_blank' href={process.env.PUBLIC_URL + "/meu curriculo EN.pdf"}>
+                Download CV
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
