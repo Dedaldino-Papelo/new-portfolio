@@ -4,15 +4,15 @@ import './style.css'
 const About = () => {
     return (
         <section id='about' className='About'>
-                <div className='description'>
-                    <div className='info'>
-                    <p> Bacharel em Engenharia Informática, com 4 anos de experiência em HTML5, CSS3 e javascript. Tenho expertise em Reactjs (Hooks, React-Redux, Redux toolkit, context API) e também em Nodejs (core modules, expressJs), tenho interesse em trabalhar tanto no frontend como no backend. Já trabalhei com C#.NET para projectos academicos, tive experiência na utilização de banco de dados como: SQL Server (stored procedures, funcões), Mongodb, PostgreSQL (migrations), tenho desenvolvido aplicações fullstack utilizando essas tecnologias a mais de 2 anos</p>
-                    </div>
+            <div className='description'>
+                <div className='info'>
+                    <p> Eu sou o Dedaldino Papelo, entusiasta na área de desenvolvimento e engenharia de software, onde tenho por mais de 3+ desenvolvido as minhas habilidades com a construção de aplicações web utilizando tecnologias como HTML, CSS, JAVASCRIPT, tenho interesse em trabalhar e colaborar tanto na área de Frontend como de Backend e procuro sempre me manter actualizado com as tendências do mercado Tech, lendo e aprendendo sempre novas tecnologias e bibliotecas como React, Nodejs, também tenho um grande interesse em Base de dados onde tenho expertise em base dados relacionais e não relacionais como o MongoDB </p>
                 </div>
+            </div>
 
-                <div className='subtitle'>
-                    <h2>about</h2>   
-                </div>
+            <div className='subtitle'>
+                <h2>about</h2>
+            </div>
         </section>
     )
 }

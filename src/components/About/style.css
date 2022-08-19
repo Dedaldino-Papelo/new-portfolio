@@ -17,8 +17,8 @@
 }
 
 .info p {
-    font-size: 1.125em;
-    line-height: 1.6875em;
+    font-size: 1em;
+    line-height: 1.7875em;
 }
 
 .About .subtitle {
@@ -59,6 +59,7 @@
         font-size: 16px;
         line-height: 21px;
         padding: 10px;
+        margin-left: 10px;
     }
 
     .About .subtitle h2 {
