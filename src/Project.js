@@ -2,6 +2,7 @@ import yelp from './assets/img/yelpcamp.png'
 import EventPlatform from './assets/img/EventPlatform.png'
 import portfolio from './assets/img/portfolio.png'
 import Bikecraft from './assets/img/Bikecraft.png'
+import Robofriends from './assets/img/robofriends.png'
 
 const Projects = [
     {
@@ -47,6 +48,17 @@ const Projects = [
         url: {
             github: "https://github.com/Dedaldino-Papelo/bikecraft",
             live: "https://stormy-gorge-20152.herokuapp.com/"
+        }
+    },
+    {
+        id: "5",
+        name: "Robofriens",
+        descrition: "Aplicação cujo o objetivo foi consumir uma API que nos retorna-se uma lista de Robos e adicionalmente uma entrade de pesquisa",
+        image: `${Robofriends}`,
+        stacks: "REACTJS, BOOTSTRAP",
+        url: {
+            github: "https://github.com/Dedaldino-Papelo/Robofriends",
+            live: "https://dedaldino-papelo.github.io/Robofriends/"
         }
     }
 
