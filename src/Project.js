@@ -3,6 +3,7 @@ import EventPlatform from './assets/img/EventPlatform.png'
 import portfolio from './assets/img/portfolio.png'
 import Bikecraft from './assets/img/Bikecraft.png'
 import Robofriends from './assets/img/robofriends.png'
+import Themovies from './assets/img/The-movies.png'
 
 const Projects = [
     {
@@ -44,7 +45,7 @@ const Projects = [
         name: "Bikecraft",
         descrition: "Esta é uma simulação de um site de vendas de bicicletas personalizadas",
         image: `${Bikecraft}`,
-        stacks: "HTML, CSS, JAVASCRIPT",
+        stacks: "Html, Css, javascript",
         url: {
             github: "https://github.com/Dedaldino-Papelo/bikecraft",
             live: "https://stormy-gorge-20152.herokuapp.com/"
@@ -55,10 +56,21 @@ const Projects = [
         name: "Robofriens",
         descrition: "Aplicação cujo o objetivo foi consumir uma API que nos retorna-se uma lista de Robos e adicionalmente uma entrade de pesquisa",
         image: `${Robofriends}`,
-        stacks: "REACTJS, BOOTSTRAP",
+        stacks: "React, Bootstrap",
         url: {
             github: "https://github.com/Dedaldino-Papelo/Robofriends",
             live: "https://dedaldino-papelo.github.io/Robofriends/"
+        }
+    },
+    {
+        id: "6",
+        name: "The Movies",
+        descrition: "site de filmes onde você pode encontrar informações sobre filmes, pesquisar qualquer filme que queiras ou gostes",
+        image: `${Themovies}`,
+        stacks: "React, Css, API",
+        url: {
+            github: "https://github.com/Dedaldino-Papelo/movie-app",
+            live: "https://movie-app-nine-murex.vercel.app/"
         }
     }
 

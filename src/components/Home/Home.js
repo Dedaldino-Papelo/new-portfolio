@@ -4,6 +4,7 @@ import Logo from '../../assets/img/Code typing-bro.png'
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
+
   return (
     <section id="home" className="Home">
       <div className="content">
