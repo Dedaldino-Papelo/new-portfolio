@@ -1,65 +1,45 @@
 import React from 'react'
 import './style.css'
-import Html from '../../assets/html5.svg'
-import Css from '../../assets/icons8-css3.svg'
-import Javascript from '../../assets/icons8-javascript.svg'
-import Reactjs from '../../assets/React.svg'
-import Node from '../../assets/icons8-nodejs.svg'
-import Mysql from '../../assets/icons8-logo-mysql.svg'
-import Git from '../../assets/icons8-git.svg'
-import PostqreSql from '../../assets/icons8-postgreesql.svg'
+
 
 const Skill = () => {
     return (
-        <section id="skills" className='Skills'>
+        <section id="skills" className='Skills container'>
+             <h2 className='sub-title'>Skills</h2>
             <div className='stack'>
-                <div className='wrapper'>
-                <div className='stack-icon'>
-                    <img src={Html} alt='' />
-                    <strong>HTML</strong>
+                <div className='box-stack'>
+                  <h3>Languages</h3>
+                  <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                        <li>C Language</li>
+                        <li>C#.net</li>
+                        <li>php</li>
+                        <li>reactjs</li>
+                        <li>nodejs</li>
+                    </ul>  
                 </div>
 
-                <div className='stack-icon'>
-                    <img src={Css} alt='' />
-                    <strong>CSS</strong>
-                </div>
+                 <div className='box-stack'>
+                  <h3>databases</h3>
+                  <ul>
+                        <li>sql server</li>
+                        <li>mysql</li>
+                        <li>postgresql</li>
+                        <li>mongodb</li>
+                        <li>firebase</li>
+                    </ul>  
+                </div>  
 
-                <div className='stack-icon'>
-                    <img src={Javascript} alt='' />
-                    <strong>Javascript</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={Reactjs} alt='' />
-                    <strong>React</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={Node} alt='' />
-                    <strong>Node</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={Mysql} alt='' />
-                    <strong>Mysql</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={Git} alt='' />
-                    <strong>Git</strong>
-                </div>
-
-                <div className='stack-icon'>
-                    <img src={PostqreSql} alt='' />
-                    <strong>PostqreSql</strong>
-                </div>
-
-                </div>
-                
-            </div>
-
-            <div className='subtitle'>
-                <h2>Skills</h2>
+                 <div className='box-stack'>
+                  <h3>others</h3>
+                  <ul>
+                        <li>Computer Network</li>
+                        <li>System Administration</li>
+                        <li>It Technician</li>
+                    </ul>  
+                </div>    
             </div>
         </section>
     )

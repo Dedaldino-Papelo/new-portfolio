@@ -1,82 +1,39 @@
-.About {
-    width: 100%;
-    margin: 30px 0;
+.About{
+    padding: 100px 0px;
     display: flex;
+    flex-direction: column;
 }
 
-.description {
+.about-content{
+    display: flex;
+
+}
+
+.about-content{
+    display: flex;
+
+}
+
+.about-content .info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content .left-image{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.info {
-    width: 700px;
-    margin-left: 160px;
+.about-content .left-image img{
+    width: 30vw;
+    height: 70vh;
+    object-fit: cover;
 }
 
-.info p {
-    font-size: 1em;
-    line-height: 1.7875em;
-}
-
-.About .subtitle {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.About .subtitle h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 3em;
-}
-
-@media only screen and (max-width: 767px) {
-    .About {
-        display: flex;
-        flex-direction: column-reverse;
-        margin: 0;
-    }
-
-    .description {
-        width: 100%;
-    }
-
-    .About .subtitle {
-        margin: 0;
-        width: 100%;
-    }
-
-    .info {
-        margin-left: 0;
-    }
-
-    .info p {
-        font-size: 16px;
-        line-height: 21px;
-        padding: 10px;
-        margin-left: 10px;
-    }
-
-    .About .subtitle h2 {
-        font-size: 1.456em;
-    }
-
-}
-
-/*Responsivo - Tablet*/
-
-@media only screen and (min-width: 767px) and (max-width: 959px) {
-    .info {
-        margin-left: 0;
-    }
-    .info p {
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 40px;
-}
+.About .info p{
+    font-size: 1.0625em;
+    line-height: 27.5px;
 }

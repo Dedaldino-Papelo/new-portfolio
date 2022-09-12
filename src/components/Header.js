@@ -27,11 +27,6 @@ const Header = () => {
               <Nav.Link>Contact</Nav.Link>
             </Link>
           </Nav>
-          <Nav className='ms-auto'>
-            <Nav.Link className='btn-download' target='_blank' href={process.env.PUBLIC_URL + "/meu curriculo EN.pdf"}>
-                Download CV
-            </Nav.Link>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

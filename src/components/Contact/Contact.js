@@ -25,7 +25,8 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className='contact'>
+    <section id="contact" className='container contact'>
+      <h2 className='sub-title'>Contact</h2>
       <div className='form'>
         <form ref={form} onSubmit={submitHandler}>
           <input type='text'
@@ -53,10 +54,6 @@ const Contact = () => {
           <a href='https://github.com/Dedaldino-Papelo'><FontAwesomeIcon className='icon' icon={faGithub} /></a>
           <a href='https://wa.me/939736657'><FontAwesomeIcon className='icon' icon={faWhatsapp} /></a>
         </div>
-      </div>
-
-      <div className='subtitle'>
-        <h2>Contact</h2>
       </div>
     </section>
   )

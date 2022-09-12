@@ -1,79 +1,71 @@
-.project{
-    width: 100%;
-    margin: 100px 0 0 0;
-    padding: 100px;
-    background: #1c1c20;
-    color: #8f8f8f ;
-}
+
 .projects{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
-    width: 85%;
-    margin: 0 auto;
-}
+    grid-gap: 30px;
 
-.projects h5{
-    font-weight: bold;
-    color: #ecdfdf;
 }
 
 .projects .grid{
-    padding: 20px;
-    background: rgb(16, 16, 20);
-    border: 1px solid #000000;
-    transition: all 0.4s;
-}
-.projects .grid:hover{
-    border: 2px solid #234899;
-}
-
-.projects .grid span{
-    font-size: 14px;
-    line-height: 25px;
-}
-
-.projects .grid span{
-   font-weight: bold;
-}
-
-.projects .grid-body{
-    margin: 15px 0;
-}
-
-.projects .grid img{
+    position: relative;
+    background-color:  #45454a;
+    padding: 1em;
     width: 100%;
 }
 
-.project .grid .url{
-    margin: 30px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.grid .body{
+    margin-top: 2em;
 }
 
-.project .grid .url .Btn{
-    border: 1px solid #234899 ;
-   width: 100%;
-   text-align: center;
+.grid .body h5{
+    color: #58d8d8;
+    font-weight: bold;
+}
+
+.projects .grid img{
+  width: 100%;
+  height: auto;
+}
+
+.url{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .6s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.url a{
+    font-size: 1em;
     text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 5px;
-    color: #8f8f8f;
-    margin-right: 15px;
-    transition: all 0.3s;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #046464;
+    padding: 10px 20px;
 }
-.project .grid .Btn:hover{
-   background-color: #113ea0;
-   color: #fff;
+
+.url a:hover{
+    background-color: #099393;
 }
-@media only screen and (max-width: 767px) {
-    .project{
-        padding: 0;
-    }
-    .projects{
-        width: 85%;
-    }
+
+.live{
+    margin-left: 2em;
 }
+
+.grid:hover .url {
+  opacity: 1;
+}
+
 

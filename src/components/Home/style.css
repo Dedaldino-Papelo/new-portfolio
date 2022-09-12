@@ -1,63 +1,41 @@
-.Home {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content {
-    width: 50%;
+.Home{
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.content h1 {
+.Home h2,h3{
     font-size: 3em;
-    line-height: 70px;
-    font-weight: bold;
-    color:#212529;
+    font-weight:bold
+}
+.Home h1{
+    margin: 0px 0px 30px 4px;
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+    font-weight: 400;
 }
 
-.image {
-    width: 50%;
+.Home .about-me{
+    max-width: 500px;
+}
+.Home .about-me p{
+    font-size: 1.0625em;
+    line-height: 25.5px;
+    margin: 20px 0px 0px;
 }
 
-.image img {
-    width: 40vw;
+.Home .resume{
+    margin-top: 50px;
 }
 
-
-/*Responsividade Smartphone*/
-@media only screen and (max-width: 767px) {
-    .Home {
-        flex-direction: column-reverse;
-        margin: 30px 0;
-    }
-
-    .content {
-        width: 100%;
-    }
-
-    .image {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .content h1 {
-    font-size: 1.456em;
-    line-height: 1.3em;
-    font-weight: bold;
+.resume a {
+    background-color: transparent;
+    border: 1px solid #58d8d8
 }
 
-}
-/*Responsivo - Tablet*/
-
-@media only screen and (min-width: 767px) and (max-width: 959px) {
-    .content h1 {
-        font-size: 2em;
-        line-height: 1.40em;
-    }
+.resume a:hover {
+    background-color:#2f6b6b 
 }
