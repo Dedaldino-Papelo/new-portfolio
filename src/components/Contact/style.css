@@ -88,6 +88,13 @@ button {
 @media only screen and (min-width: 767px) and (max-width: 959px) {
     .contact form {
         width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        padding: 70px 0px;
+        color: #8f8f8f;
     }
-    
+
 }

@@ -39,3 +39,17 @@
 .resume a:hover {
     background-color:#2f6b6b 
 }
+
+/*Responsivo - Tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+    
+}
+
+/*Responsivo - Smartphone*/
+@media only screen and (max-width: 767px) {
+    .Home h2,h3{
+        font-size: 2em;
+    }
+}
