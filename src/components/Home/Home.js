@@ -1,37 +1,43 @@
 import React from 'react'
 import './style.css';
+import {HomeContainer,
+        Title1,
+        Title2,
+        Entry,
+        Description,
+        DescriptionContainer,
+        ResumeWrapper,
+        DownloadResume
+      }from './home.style';
 
 const Home = () => {
 
   return (
-    <section id="home" className="container Home">
-      <h1 className='introduction'>Hi <span role='img' aria-labelledby='imoji'>👋</span> , my name is</h1>
+    <HomeContainer id="home" className='container'>
+      <Entry>Hi <span role='img' aria-labelledby='imoji'>👋</span> , my name is</Entry>
 
-      <div className='name'>
-        <h2>
-          Dedaldino Papelo
-          </h2>
-          </div>
-
-      <div className='title'>
-        <h3>
+    
+        <Title1>
+          Dedaldino Papelo      
+          </Title1>
+          <Title2>
           Computer Engineer and Software Developer
-          </h3>
-          </div>
+          </Title2>
+          
 
-      <div className='about-me'>
-        <p>
+      <DescriptionContainer>
+        <Description>
         Iam an Enthusiastic about information technology and computer science, always driven by the desire to improve. NODEJS | REACTJS | C#.NET | SQL
-        </p>
-        </div>
+        </Description>
+        </DescriptionContainer>
 
-        <div className='resume'>
-          <a className='btn-download' href={process.env.PUBLIC_URL + "/meu curriculo EN.pdf"}>
+        <ResumeWrapper>
+          <DownloadResume className='btn-download' href={process.env.PUBLIC_URL + "/meu curriculo EN.pdf"}>
           Download Resume 
-          </a>
-        </div>
+          </DownloadResume>
+        </ResumeWrapper>
 
-    </section>
+    </HomeContainer>
   )
 }
 
