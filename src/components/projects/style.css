@@ -13,10 +13,6 @@
     width: 100%;
 }
 
-.grid .body{
-    margin-top: 2em;
-}
-
 .grid .body h5{
     color: #58d8d8;
     font-weight: bold;
@@ -68,10 +64,6 @@
   opacity: 1;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    
-    
-}
 
 /*Responsivo - Smartphone*/
 @media only screen and (max-width: 767px) {
@@ -83,14 +75,18 @@
     font-size: 0.999em;
 }
 
-.grid .body{
-    margin-top: 2em;
-}
-
 .grid .body h5{
     color: #58d8d8;
     margin-top: 6rem;
-  
+
+}
+.projects .grid{
+   margin:  0 auto;
+}
+
+.projects{
+   width: 100%;
+   margin: 0 auto;
 
 }
 
