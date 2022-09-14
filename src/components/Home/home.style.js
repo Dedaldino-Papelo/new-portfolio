@@ -6,7 +6,7 @@ import styled, {css} from "styled-components";
     font-size: 3em;
 
     @media only screen and (max-width: 767px) {
-        font-size: 1em;
+        font-size: 20px;
   `
 
 export const HomeContainer = styled.section`

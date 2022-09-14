@@ -41,7 +41,7 @@
 /*Responsivo - Smartphone*/
 @media only screen and (max-width: 767px) {
     .About{
-        padding: 0px;
+        padding-top: 50px;
 }
     .about-content{
         display: flex;
