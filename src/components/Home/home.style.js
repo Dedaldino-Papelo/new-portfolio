@@ -15,6 +15,7 @@ export const HomeContainer = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
 `
 
 export const Entry = styled.h1`

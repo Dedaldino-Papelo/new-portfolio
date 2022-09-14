@@ -5,7 +5,7 @@ import D from '../assets/D.png'
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{zIndex: 2}}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={D} alt='D' style={{width: '40px', height: '40px'}} />
