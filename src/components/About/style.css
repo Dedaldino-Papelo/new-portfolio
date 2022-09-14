@@ -1,72 +1,75 @@
-.About{
+.About {
     padding: 100px 0px;
     display: flex;
     flex-direction: column;
 }
 
-.about-content{
+.about-content {
     display: flex;
-
 }
 
-.about-content .info{
+.about-content .info {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.about-content .left-image{
+.about-content .left-image {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-content .left-image img{
+.about-content .left-image img {
     width: 30vw;
     height: 70vh;
     object-fit: cover;
 }
 
-.About .info p{
+.About .info p {
     font-size: 1.0625em;
     line-height: 27.5px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    
-    
-}
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 /*Responsivo - Smartphone*/
 @media only screen and (max-width: 767px) {
-    .About{
-        padding-top: 50px;
-}
-    .about-content{
+    .About {
+        padding: 100px 20px;
+    }
+
+    .about-content {
         display: flex;
         flex-direction: column;
     }
 
-    .about-content .info{
-    width: 100%;
-}
+    .about-content .info {
+        width: 100%;
 
-.about-content .left-image{
-    width: 100%;
-}
+    }
 
-.about-content .left-image img{
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
- }
+    .About .info p {
+        font-size: 1em;
+    }
+
+    .about-content .left-image {
+        width: 100%;
+        align-items: center;
+    }
+
+    .about-content .left-image img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
 }
 
 /*TABLET*/
 @media only screen and (min-width: 767px) and (max-width: 1366px) {
 
-    .about-content .left-image img{
+    .about-content .left-image img {
         width: 100%;
         height: 50vh;
         object-fit: cover;

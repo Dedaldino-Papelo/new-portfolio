@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './style.css';
 import {
   HomeContainer,
+  TitleContainer,
   Title1,
   Title2,
   Entry,
@@ -15,15 +15,16 @@ import {
 const Home = () => {
   return (
     <HomeContainer id="home" className='container'>
-      
       <Entry>Hi <span role='img' aria-labelledby='imoji'>👋</span> , my name is</Entry>
+
+      <TitleContainer>
       <Title1>
         Dedaldino Papelo
       </Title1>
       <Title2>
         Computer Engineer and Software Developer
       </Title2>
-
+      </TitleContainer>
 
       <DescriptionContainer>
         <Description>

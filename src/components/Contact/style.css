@@ -93,8 +93,7 @@ button {
 
 @media only screen and (max-width: 767px) {
     .contact {
-        padding: 70px 0px;
-        color: #8f8f8f;
+        padding: 70px 20px;
     }
 
 }

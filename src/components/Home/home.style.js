@@ -6,7 +6,7 @@ import styled, {css} from "styled-components";
     font-size: 3em;
 
     @media only screen and (max-width: 767px) {
-        font-size: 20px;
+        font-size: 30px;
   `
 
 export const HomeContainer = styled.section`
@@ -15,6 +15,9 @@ export const HomeContainer = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    @media only screen and (max-width: 767px) {
+        padding: 0 20px;
     
 `
 
@@ -27,7 +30,6 @@ export const Entry = styled.h1`
 `
 
 export const TitleContainer = styled.div`
-    border: 2px solid red;
 }
 
 `
@@ -49,6 +51,9 @@ export const Description = styled.p`
     font-size: 1.0625em;
     line-height: 25.5px;
     margin: 20px 0px 0px;
+
+    @media only screen and (max-width: 767px) {
+       font-size: 1em;
 `
 
 export const ResumeWrapper = styled.div`
