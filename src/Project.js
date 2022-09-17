@@ -4,6 +4,8 @@ import portfolio from './assets/img/portfolio.png'
 import Bikecraft from './assets/img/Bikecraft.png'
 import Robofriends from './assets/img/robofriends.png'
 import Themovies from './assets/img/The-movies.png'
+import Weather from './assets/img/Weather.png'
+
 
 const Projects = [
     {
@@ -71,6 +73,17 @@ const Projects = [
         url: {
             github: "https://github.com/Dedaldino-Papelo/movie-app",
             live: "https://movie-app-nine-murex.vercel.app/"
+        }
+    },
+    {
+        id: "6",
+        name: "Weather App",
+        descrition: "App para previsão de tempo, contém uma caixa de texto onde podes inserir o nome da cidade que desejas obter informação sobre o tempo",
+        image: `${Weather}`,
+        stacks: "React, Styled Components, axios",
+        url: {
+            github: "https://github.com/Dedaldino-Papelo/weather-app",
+            live: "https://dedaldino-papelo.github.io/weather-app/"
         }
     }
 
