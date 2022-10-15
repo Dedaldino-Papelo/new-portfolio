@@ -33,7 +33,7 @@ const Home = () => {
       </DescriptionContainer>
 
       <ResumeWrapper>
-        <DownloadResume className='btn-download' target='_blank' href={process.env.PUBLIC_URL + "/Resume EN.pdf"}>
+        <DownloadResume className='btn-download' target='_blank' href={process.env.PUBLIC_URL + "/Resume.pdf"}>
           Download Resume
         </DownloadResume>
       </ResumeWrapper>
