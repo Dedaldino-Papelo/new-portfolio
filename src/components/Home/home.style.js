@@ -34,11 +34,11 @@ export const TitleContainer = styled.div`
 
 `
 export const Title1 = styled.h2`
-  ${TitleStyle}
+  ${TitleStyle};
 
 `
 export const Title2 = styled.h3`
-    ${TitleStyle}
+    ${TitleStyle};
 
 `
 

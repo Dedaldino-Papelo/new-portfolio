@@ -28,7 +28,7 @@ const Home = () => {
 
       <DescriptionContainer>
         <Description>
-          Iam an Enthusiastic about information technology and computer science, always driven by the desire to improve. NODEJS | REACTJS | C#.NET | SQL
+        Professional specialist in systems management with extensive experience in IT technical support, software development and database management Systems.
         </Description>
       </DescriptionContainer>
 

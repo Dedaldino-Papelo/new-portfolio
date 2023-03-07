@@ -19,6 +19,7 @@
         margin: 14px 0;
         background-color: #046464;
         padding: 10px;
+        cursor: pointer;
     }
 
     ul li:hover{
