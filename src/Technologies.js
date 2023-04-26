@@ -6,6 +6,7 @@ import Node from './assets/icons8-nodejs.svg'
 import React from './assets/icons8-reagir.svg'
 import Docker from './assets/icons8-docker-48.svg'
 import PostgreSQL from './assets/icons8-postgreesql.svg'
+import Linux from './assets/linux-icon.svg'
 
 export const Technologies = [
     {
@@ -47,5 +48,10 @@ export const Technologies = [
         id: "8",
         name: "PostgreSQL",
         image: `${PostgreSQL}`
+    },
+    {
+        id: "9",
+        name: "Linux",
+        image: `${Linux}`
     }
 ]
