@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import about from '../../assets/about-photo.jpeg'
+import Profile from '../../assets/profile.jpg'
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
                 </div>
 
                 <div className='left-image'>
-                    <img src={about} alt='about' />
+                    <img src={Profile} alt='about' />
                 </div>
             </div>
         </section>
