@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.stack-item:hover{
+    transform: scale();
+}
+
 .stack-item img{
     width: 100px;
     pointer-events: none;
