@@ -61,6 +61,5 @@ export const ResumeWrapper = styled.div`
 `
 
 export const DownloadResume = styled.a`
-    background-color: transparent;
-    border: 1px solid #58d8d8 
+    background-color: #046464;
 `
