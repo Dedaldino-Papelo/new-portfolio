@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className='container contact'>
-      <h2 className='sub-title'>Contact</h2>
+      <h2 className='sub-title'>Get in touch</h2>
       <div className='form'>
         <form ref={form} onSubmit={submitHandler}>
           <input type='text'
@@ -35,7 +35,7 @@ const Contact = () => {
             required
           />
           <input type='text'
-            placeholder="Email"
+            placeholder="Your Email"
             name='Email'
             required
           />
