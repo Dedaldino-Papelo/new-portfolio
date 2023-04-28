@@ -41,6 +41,11 @@
             padding: 0 20px;
             margin-bottom: 50px;
         }
+        .stack-item img{
+            width: 50px;
+            pointer-events: none;
+        }
+        
     }
 
 
