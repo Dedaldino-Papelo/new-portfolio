@@ -22,7 +22,7 @@ const Home = () => {
         Dedaldino Papelo
       </Title1>
       <Title2>
-        Computer Engineer and Software Developer
+        Software Engineer
       </Title2>
       </TitleContainer>
 
