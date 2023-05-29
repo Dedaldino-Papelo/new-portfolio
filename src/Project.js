@@ -33,17 +33,6 @@ const Projects = [
     },
     {
         id: "3",
-        name: "Portfolio",
-        descrition: "Este é um Portfolio pessoal desenvolvido por mim",
-        image: `${portfolio}`,
-        stacks: "Reactjs, CSS, Emailjs",
-        url: {
-            github: "https://github.com/Dedaldino-Papelo/new-portfolio",
-            live: "https://dedaldino-papelo.vercel.app/"
-        }
-    },
-    {
-        id: "4",
         name: "Bikecraft",
         descrition: "Esta é uma simulação de um site de vendas de bicicletas personalizadas",
         image: `${Bikecraft}`,
@@ -54,7 +43,7 @@ const Projects = [
         }
     },
     {
-        id: "5",
+        id: "4",
         name: "Robofriens",
         descrition: "Aplicação cujo o objetivo foi consumir uma API que nos retorna-se uma lista de Robos e adicionalmente uma entrade de pesquisa",
         image: `${Robofriends}`,
@@ -65,7 +54,7 @@ const Projects = [
         }
     },
     {
-        id: "6",
+        id: "5",
         name: "The Movies",
         descrition: "site de filmes onde você pode encontrar informações sobre filmes, pesquisar qualquer filme que queiras ou gostes",
         image: `${Themovies}`,
